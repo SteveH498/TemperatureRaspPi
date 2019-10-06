@@ -5,6 +5,6 @@ Start sensor readings script:
 python3 sensor_readings.py
 
 Start REST server:
-env FLASK_APP=server.py flask run
+env FLASK_APP=server.py flask run --host=0.0.0.0
 
 
