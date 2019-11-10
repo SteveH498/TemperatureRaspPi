@@ -6,7 +6,7 @@ import time
 import sqlite3
 
 # Create/Open DB for sensor readings
-conn = sqlite3.connect('temperature.db')
+conn = sqlite3.connect('/home/pi/Desktop/TemperatureRaspPi/temperature.db')
 c = conn.cursor()
 
 # Create DB table
